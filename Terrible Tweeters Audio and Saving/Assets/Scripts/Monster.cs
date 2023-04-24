@@ -23,7 +23,7 @@ public class Monster : MonoBehaviour
         {
             float delay = UnityEngine.Random.Range(5, 30);
             yield return new WaitForSeconds(delay);
-            if (_hasDied == false)
+            if (_hasDied = false)
             {
                 GetComponent<AudioSource>().Play();
             }
